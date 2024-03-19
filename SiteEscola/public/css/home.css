@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.borda{
+
+}
+.part1{
+    width: 50%;
+}
+.part2{
+    width: 45%;
+}
+
+li{
+    list-style: none;
+}
+header{
+    background-image: url('/img/fundo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;   
+  
+}
+input{
+    width: 95%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(217, 217, 217, 0.2);
+    height: 30px;
+    background-image: url('/img/lupa.png');
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 0;
+    
+}
+.slogan{
+    margin-top: 75px;
+    text-align: center;
+   font-size: 2.4em;
+    width: 50%;
+    color: #5CB6F9;
+
+}
+.login{
+    border-radius: 100px;
+    background-color: #5CB6F9;
+    padding: 5px;
+}
+header a{
+   text-decoration: none;
+   color: #5CB6F9;
+   font-weight: 500;
+}
+@media (max-width: 1400px) {
+.slogan{
+    font-size: 2em;
+}
+}
+@media (max-width: 1199px) {
+    .slogan{
+        font-size: 1.4em;
+    }
+    }
+
+@media (max-width: 1200px) {
+    input{
+        width: 80%;
+    }
+    .part1{
+        width: 55%;
+    }
+    .part2{
+        width: 40%;
+    }
+}
+.cab-prin2{
+    display: none;
+}
+.quemSomos-card{
+    padding: 40px 160px;
+}
+@media (max-width: 991px) {
+    .imagem-post{
+        width: 95%;
+    }
+    .cab-prin{
+        display: none;
+    }
+    .cab-prin2{
+        display: block;
+        margin-bottom: 80px;
+    }
+    .quemSomos-card{
+        padding: 40px 20px;
+    }
+}
+
+#fundo{
+    background-color: #050A30;
+}
+.cont-info{
+    height: 100%;
+}
+.Texto-q{
+    width: 80%;
+}
+.imagem-post{
+    border-radius: 20px;
+}
+
+div.Texto-q h1{
+    font-size: 1.8em;
+    color: #12229D;
+}
+.card-azul{
+    background-color: #12229D;
+    color: #5CB6F9;
+    padding: 30px 40px;
+    border-radius: 20px;
+    max-width: 300px;
+    height: 310px;
+}
+.card-cont{
+    background-color: #12229D;
+    color: #5CB6F9;
+    border-radius: 20px;
+    max-width: 300px;
+}
+.contato-fund{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/aaa.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
